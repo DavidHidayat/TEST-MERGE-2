@@ -1,0 +1,38 @@
+/* 
+    Document   : image-eps
+    Created on : Dec 19, 2014, 2:39:23 PM
+    Author     : JK2120155
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.send_button {
+    background-image: url(../images/send24.png) !important;
+}
+.save_button {
+    background-image: url(../images/save24.png) !important;
+}
+.approve_button {
+    background-image: url(../images/approve24.png) !important;
+}
+.reject_button {
+    background-image: url(../images/reject24.png) !important;
+}
+.cancel_button {
+    background-image: url(../images/cancel24.png) !important;
+}
+.calculate_button {
+    background-image: url(../images/calculate24.png) !important;
+}
+.replicate_button {
+    background-image: url(../images/replicate24.png) !important;
+}
+.search_button {
+    background-image: url(../images/search24.png) !important;
+}
+.transfer_button {
+    background-image: url(../images/transfer24.png) !important;
+}
+
+.add_button {
+    background-image: url(../images/add.png) !important;
+}

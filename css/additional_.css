@@ -1,0 +1,288 @@
+/*********************************************************************
+ * Update CSS 
+ *********************************************************************/
+
+body {
+    font: 13px/1.7em 'Segoe UI', Verdana, Microsoft Sans Serif;
+    font-family: Segoe UI, Verdana, Microsoft Sans Serif;
+}
+    
+p { 
+    font: 13px/1.7em 'Segoe UI', Verdana, Microsoft Sans Serif;
+}
+  
+label,
+input,
+button,
+select,
+select option,
+textarea {
+  font: 11px/1.3em 'Segoe UI', Verdana, Microsoft Sans Serif;
+  font-family: Segoe UI, Verdana, Microsoft Sans Serif;
+  text-transform: uppercase;
+  
+}
+
+input, textarea, select, .uneditable-input {
+    margin-bottom: 2px;
+    padding: 3px;
+}
+textarea{
+    width: 92%;
+}
+label{
+    margin-bottom: 3px;
+}
+select.span2 {
+        width: 131px;
+}
+select.span4 {
+	width: 291px;
+}
+h6.bigstats{
+    padding-bottom: 10px;
+}
+.container {
+	margin-left: 10px;
+	margin-right: 10px; 
+*zoom:1;
+}
+.container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+	width: 98%;
+}
+.span12 {
+	width: 98%;
+}
+.navbar-fixed-top .container, .navbar-fixed-bottom .container {
+	width: 98%;
+}
+.navbar-inner {
+    padding: 1px 0;
+}
+/*------------------------------------------------------------------
+[3. Subnavbar / .subnavbar]
+*/
+
+.subnavbar {
+    	margin-bottom: 1em;
+    }
+ 
+    .subnavbar-inner {
+	height: 55px;
+    }
+    .subnavbar .container > ul > li {
+	height: 55px;
+    }
+    .subnavbar .container > ul > li > a {
+	padding: 0px 10px;
+    }
+    .subnavbar .container > ul > li > a > i {
+        margin-top: 8px;
+    }
+.widget {
+    margin-bottom: 0.5em;
+}
+.widget-header {
+	
+	height: 30px;
+	line-height: 30px;
+}
+.widget-content{
+    padding: 10px 15px 5px
+}
+
+.widget-header h3 {
+    font-size: 12px;
+}
+.form-actions {
+	padding: 10px 10px 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.control-group {
+	margin-bottom: 1px;
+}
+.ui-autocomplete { 
+    height: 200px; overflow-y: scroll; overflow-x: hidden;
+}
+.navbar-inner {
+    
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ba8b', endColorstr='#00ba8b');
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ba8b', endColorstr='#00ba8b')";
+	
+}
+.table th {
+	padding: 3px;
+}
+.table td {
+	padding: 4px;
+}
+.alert {
+        padding: 5px 35px 5px 14px;
+        margin-top: 10px;
+	margin-bottom: 8px;
+}
+.action-table .btn-small{
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+/*********************************************************************
+ * Add CSS 
+ *********************************************************************/
+textarea {
+   resize: none;
+}
+.input-align-right{
+    text-align: right;
+}
+
+.full-width-dialog-td input {
+    width: 95%;
+}
+
+.full-width-dialog-td select {
+    width: 97%;
+}
+
+.default-width-dialog-td input {
+    width: 6.833em; 
+}
+
+.default-width-select{
+    width: 73%; 
+}
+.full-width-input{
+    width: 96%; 
+}
+.full-width-input-select{
+    width: 98%; 
+}
+.dialog-control {
+    width: 50%;
+}
+
+.table td {
+    font-size: 11px;
+}
+
+.table-bordered th {
+    /** add css */
+    text-align: center;
+    font-family: Tahoma;
+    font-size: 10px;
+}
+
+.table-bordered td.td-number {
+    /** add css */
+    width: 2%;
+    text-align: right;
+}
+
+.table-bordered td.td-align-right {
+    /** add css */
+    text-align: right;
+}
+/** new css */
+.table-non-bordered {
+    width: 100%;
+}
+
+.action-table .td-actions { 
+    width: 40px;
+}
+
+.action-table .td-actions-2columns { 
+    width: 80px;
+}
+
+.action-table .td-actions-3columns { 
+    width: 120px;
+}
+
+.td-date-column {
+    width: 60px;
+}
+td a.attachment-link{
+    color: #19BC9C; 
+    font-weight: bold;
+}
+td a.attachment-link a:hover{
+    color: #545454;
+    text-decoration: underline;
+}
+
+li.year{
+    display: inline-block;
+    margin-right: 8px;
+}
+.ui-progress-bar {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+  
+.ui-progress span.ui-label {
+  font-size: 1.2em;
+  position: absolute;
+  right: 0;
+  line-height: 33px;
+  padding-right: 12px;
+  color: rgba(0,0,0,0.6);
+  text-shadow: rgba(255,255,255, 0.45) 0 1px 0px;
+  white-space: nowrap;
+}@-webkit-keyframes animate-stripes {
+  from {
+    background-position: 0 0;
+  }
+  
+  to {
+   background-position: 44px 0;
+  }
+}    
+  
+.ui-progress-bar {
+  position: relative;
+  height: 35px;
+  padding-right: 2px;
+  background-color: #abb2bc;
+  border-radius: 35px;
+  -moz-border-radius: 35px;
+  -webkit-border-radius: 35px;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #b6bcc6), color-stop(1, #9da5b0));
+  background: -moz-linear-gradient(#9da5b0 0%, #b6bcc6 100%);
+  -webkit-box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.5), 0px 1px 0px 0px #FFF;
+  -moz-box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.5), 0px 1px 0px 0px #FFF;
+  box-shadow: inset 0px 1px 2px 0px rgba(0, 0, 0, 0.5), 0px 1px 0px 0px #FFF;
+}      
+  
+.ui-progress {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  height: 33px;
+  -moz-border-radius: 35px;
+  -webkit-border-radius: 35px;
+  border-radius: 35px;
+  -webkit-background-size: 44px 44px;
+  background-color: #74d04c;
+  background: -webkit-gradient(linear, 0 0, 44 44,
+    color-stop(0.00, rgba(255,255,255,0.17)),
+    color-stop(0.25, rgba(255,255,255,0.17)),
+    color-stop(0.26, rgba(255,255,255,0)),
+    color-stop(0.50, rgba(255,255,255,0)),
+    color-stop(0.51, rgba(255,255,255,0.17)),
+    color-stop(0.75, rgba(255,255,255,0.17)),
+    color-stop(0.76, rgba(255,255,255,0)),
+    color-stop(1.00, rgba(255,255,255,0))
+  ), -webkit-gradient(linear, left bottom, left top, color-stop(0, #74d04c), color-stop(1, #9bdd62));
+  background: -moz-repeating-linear-gradient(top left -30deg,
+    rgba(255,255,255,0.17),
+    rgba(255,255,255,0.17) 15px,
+    rgba(255,255,255,0) 15px,
+    rgba(255,255,255,0) 30px
+  ), -moz-linear-gradient(#9bdd62 0%, #74d04c 100%);
+  -webkit-box-shadow: inset 0px 1px 0px 0px #dbf383, inset 0px -1px 1px #58c43a;
+  -moz-box-shadow: inset 0px 1px 0px 0px #dbf383, inset 0px -1px 1px #58c43a;
+  box-shadow: inset 0px 1px 0px 0px #dbf383, inset 0px -1px 1px #58c43a;
+  border: 1px solid #4c8932;
+  -webkit-animation: animate-stripes 2s linear infinite;
+}
